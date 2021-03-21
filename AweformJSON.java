@@ -5,7 +5,11 @@ import java.util.List;
 
 //
 // AweformJSON
-// To avoid dependencies we include a simple JSON parser
+// This is a tiny JSON parser used to parse a JSON string into a simple
+// in memory representation. This "library" is optimally used by just adding
+// this single file to your Java project
+// NOTE: that this parser has only basic syntax error handling
+// (c) 2021 - Aweform - https://aweform.com/
 ////////////////////////////////////////////////////////////////////////////////////
 
 public class AweformJSON {
